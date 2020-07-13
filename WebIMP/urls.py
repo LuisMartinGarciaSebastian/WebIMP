@@ -23,6 +23,10 @@ urlpatterns = [
     path('', views.index, name='index'),
     path('admin/', admin.site.urls),
     path('usuario/', views.users , name='user'),
+    path('IndexCpp', views.cpp, name='index-cpp'),
+    path(r'<EjercicioCpp>', 
+        views.ejercicios_cpp, 
+        name='ejercicios-cpp'),
 ]
 
 urlpatterns += staticfiles_urlpatterns()

@@ -24,7 +24,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('usuario/', views.users , name='user'),
     path('IndexCpp', views.cpp, name='index-cpp'),
-    path(r'<EjercicioCpp>', 
+    path(r'Cpp/Programa_<EjercicioCpp>', 
         views.ejercicios_cpp, 
         name='ejercicios-cpp'),
 ]

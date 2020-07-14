@@ -39,13 +39,13 @@ Coded by www.creative-tim.com
   <div class="wrapper ">
     <div class="sidebar" data-color="white" data-active-color="danger">
       <div class="logo">
-        <a href="https://www.creative-tim.com" class="simple-text logo-mini">
+        <a href="{%url 'index'%}" class="simple-text logo-mini">
           <div class="logo-image-small">
             <img src=" {% static 'assets/img/logo-small.png' %}">
           </div> 
           <!-- <p>CT</p> -->
         </a>
-        <a href="https://www.creative-tim.com" class="simple-text logo-normal">
+        <a href="{%url 'index'%}" class="simple-text logo-normal">
           Super Cómputo <br>para extracción<br> de hidrocarburos
          <!-- <div class="logo-image-big">
             <img src="{% static 'assets/img/logo-small.png'%}"/>
@@ -127,7 +127,8 @@ Coded by www.creative-tim.com
       <div class="content">
         <div class="row">
           <div class="col-md-12">
-            <h3 class="description">Ejercicio</h3>
+            <h3 class="description"> Ejercicio {{id_ejercicio}}: {{titulo}} </h3>
+<p>{{descripcion}}</p>
               <pre><code>
 {{codigo}}
               </code></pre>

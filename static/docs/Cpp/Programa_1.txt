@@ -1,0 +1,2 @@
+Área de un circulo 
+En este script se hace uso del manejo de <b>definiciones</b>, asignaciones de variables, y se da un ejemplo de como mostrar el resutltado en pantalla.

@@ -22,7 +22,7 @@ from . import views
 urlpatterns = [
     path('', views.index, name='index'),
     path('admin/', admin.site.urls),
-    path('usuario/', views.users , name='user'),
+    path('Ejercicios/', views.ejemplos , name='ejercicios'),
     path('IndexCpp', views.cpp, name='index-cpp'),
     path(r'Cpp/Programa_<EjercicioCpp>', 
         views.ejercicios_cpp, 

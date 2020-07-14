@@ -10,8 +10,8 @@ class ejercicios():
 def index (request):
     return render(request,'index.html')
 
-def users(request):
-    return render(request, 'user.html')
+def ejemplos(request):
+    return render(request, 'Ejercicios.html')
 
 def cpp(request):
     files = [file

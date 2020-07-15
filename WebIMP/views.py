@@ -32,7 +32,7 @@ def ejercicios_cpp(request, EjercicioCpp):
     codigo = programa.read()
     descripcion = texto.readlines()
     titulo = descripcion[0]
-    descripcion = descripcion[1:][0]
+    descripcion = ''.join(descripcion[1:])
     programa.close()
     texto.close()
     contex = {'codigo':codigo,

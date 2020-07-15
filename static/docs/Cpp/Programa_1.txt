@@ -1,2 +1,26 @@
-Área de un circulo 
-En este script se hace uso del manejo de <b>definiciones</b>, asignaciones de variables, y se da un ejemplo de como mostrar el resutltado en pantalla.
+<b>Programa 1</b>
+<p>El programa a continuación realiza el cálculo de el perímetro de un círculo, siguiendo
+la estructura básica de un programa para C++.
+</p>
+
+<!-- Elemento <hr> -->
+<b>Cuerpo de Programa</b>
+<hr>
+<b>Directivas de preprocesador:</b> <br>
+<b>#include <<i>nombre_de_archivo</i>></b>: directiva que le dice al preprocesador que inserte los contenidos de un archivo especificado en el código en el punto en el cual se uso la directiva.
+<br><br>
+<b>#define <i>nombre remplazo</i></b>: directiva en la cual el preprocesador remplaza  cada ocurrencia del <i>nombre</i> por el <i>remplazo</i> en el código que viene a continuación de las directivas de preprocesador por.
+<br><br>
+
+<b>Cuerpo principal:</b> <br>
+<b>using namespace <i>std</i>;</b>:
+directiva para usar el lugar standar de definiciones de C++, contiene una gran variedad de funciones para utilizar como lo son las entradas y salidas para leer y escribir datos en terminal.
+<br><br>  
+<b>void <i>main</i>(){...}</b>: función principal en la cual va el código a ejcutar, dentro de las llaves debe de ir el código que se compila y ejecuta. 
+<br><br> 
+<b>double <i>variable</i>;</b>:
+asignación de un espacio de memoria para almacenar un dato de tipo <i>double</i>.
+<br><br>  
+<b>cout<<<i>variable_texto</i>;</b>:
+función de la libreria estandar para imprimir en la terminal las variables o el texto que se le dieron de argumento.
+<br><br>  

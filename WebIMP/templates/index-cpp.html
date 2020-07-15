@@ -165,7 +165,7 @@ Coded by www.creative-tim.com
                           {{text.id}}
                         </td>
                         <td>
-                          <a href= {%url 'ejercicios-cpp' text.id%}>{{text.titulo}}</a>
+                          <a href= {%url 'ejercicios-cpp' text.id%}>{{text.titulo | safe}}</a>
                         </td>
                       </tr>
                     {%endfor%}

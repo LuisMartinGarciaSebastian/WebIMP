@@ -1,0 +1,13 @@
+<b>Tamaño de memoria</b>
+<p>Al reservar memoria es importante saber cuantos bytes utiliza un tipo de dato determinado, para poder obtener dicho tamaño de una variable, el lenguaje de programación nos ofrece <i><b>sizeof</b></i>. El programa a continuación ejemplifica el uso del operador <i><b>sizeof</b></i> con diferentes tipos de dato.
+</p>
+
+<!-- Elemento <hr> -->
+<b>Cuerpo de Programa</b>
+<hr>
+<b>(x) ? y : z</b> : Evaluación condicional, <q>Si <b><i>x</i></b> es Verdad, entonces <b><i>y</i></b>, de otra manera <b><i>z</i></b></q>. Donde: <br><b><i>x</i></b>: condicion, ejem: A == B, A != B.
+<br><b><i>y</i></b>: en caso de que la condición x sea verdadera regresa y.
+<br><b><i>z</i></b>: en caso de que la condición x sea falsa regresa z.
+<br><br>
+<b>sizeof<i> (x)</i></b>: operador que significa <q>tamaño en bytes</q>. Regresa el número de bytes que ocupa en memoria el tipo de dato x.
+<br><br>

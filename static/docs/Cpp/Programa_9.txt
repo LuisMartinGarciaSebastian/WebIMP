@@ -1,0 +1,13 @@
+<b>Funciones</b>
+<p> Cada programa en C++ contiene la función pincipal <b><i>main()</i></b> que es la primer función que ejecuta el programa. Una función es una subrutina de instrucciones que ejecuta cuando es llamada dicha susbrutina. Se debe de tener en cuenta si regresa un valor y si recibe valores. En el programa siguiente se ejemplifica una función cuyo valor de regreso es <b><i>void</i></b>, que significa que no tiene valor de retorno. Así mismo se observa que no recibe valores para ejecutar sus subrutina, por lo tanto el valor de los parametros de la función es <b><i>void</i></b>.
+</p>
+
+<!-- Elemento <hr> -->
+<b>Cuerpo de Programa</b>
+<hr>
+<b> <i>void</i> imprimirmensaje()</b>; : prototipo de la función, se debe escribir el prototipo antes de la función que usa el nombre del prototipo. Es una declaración que indica que tipos recibira y regresara la fucnió, informa al compilador de los parametros que componen a la función. 
+Al llamar la función en la función principal <b><i>main()</i></b>, se ejecutan las instrucciones dentro de las llaves, en este caso es la impresión de texto en la terminal.
+<br><br>
+<b> <i>imprimirmensaje()</i></b> : 
+Al llamar la función en la función principal <b><i>main()</i></b>, se ejecutan las instrucciones dentro de las llaves, en este caso es la impresión de texto en la terminal.
+<br><br>

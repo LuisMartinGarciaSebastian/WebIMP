@@ -1,0 +1,12 @@
+<b>Funciones 2</b>
+<p> En este programa se observa una función que al ejecutar las instrucciones de la subrutina regresa un valor de tipo   <b><i>int</i></b>, así mismo recibe como parametros dos valores con  <b><i>int</i></b> como tipo de datos.
+</p>
+
+<!-- Elemento <hr> -->
+<b>Cuerpo de Programa</b>
+<hr>
+<b> <i>int</i> suma( <i>int</i>, <i>int</i> )</b>; : prototipo de la función, Se observa que la fucnión regresa un valor entero y recive dos valores enteros.
+<br><br>
+<b> <i>int</i> suma( <i>int a</i>, <i>int b</i> )</b>; : 
+Al ser llamado en la función principal, se debe de agregar dos valores enteros, estos valores dentro de la función reciben los nombres <i>a</i>, <i>b</i>, al realizar la suma regresan el valor de esta a la función principal.
+<br><br>

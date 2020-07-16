@@ -1,0 +1,10 @@
+<b>Manejo de Cadenas de carácteres</b>
+<p>Para manejar un grupo de datos tipo <b>char</b> es útil aprender a usar las bibliotecas que nos ofrece C++ para el manejo de cadenas de carácteres mediante copiar, comparar encontrar elemntos en una cadena, se realiza de manera mas sencilla. El programa a continuación realiza la solicitud de una cadena de caráteres a el usuario y por medio de la terminal muestra el resultado de la multiplicación.
+</p>
+
+<!-- Elemento <hr> -->
+<b>Cuerpo de Programa</b>
+<hr>
+<b>stringstream(x)</b> : 
+La secuencia de cadena asocia un objeto de cadena con una cadena. Usando esto podemos leer de la cadena como si fuera una secuencia como <i><b>cin</i></b>, el operador <i><b> >> </i></b> asigna la cadena a una variable de tipo númerico (<i><b>float</i></b>, <i><b>int</i></b>, entre otros).
+<br><br>

@@ -18,16 +18,19 @@ def cpp(request):
             for file in os.listdir("static/docs/Cpp")
             if file.endswith(".txt") ]
     titulo = []
-    for i, file in enumerate(files):
+    files = sorted(files, 
+                key=lambda x: int(x.partition('_')[2].partition('.')[0]))
+    for file in files:
         f = open('static/docs/Cpp/'+file,'r')
-        titulo.append(ejercicios(f.readlines()[0], len(files)-i))
+        titulo.append(ejercicios(f.readlines()[0],
+                            int(file[file.index("_")+1:file.index(".")])
+                    ))
         f.close()
-    titulo.reverse()
     contex = {'descripcion':titulo}
     return render(request, 'index-cpp.html', contex)
 
 def ejercicios_cpp(request, EjercicioCpp):
-    programa=open('static/docs/Cpp/Programa_'+EjercicioCpp+'.cpp','r')
+    programa = open('static/docs/Cpp/Programa_'+EjercicioCpp+'.cpp','r')
     texto = open('static/docs/Cpp/Programa_'+EjercicioCpp+'.txt','r')
     codigo = programa.read()
     descripcion = texto.readlines()

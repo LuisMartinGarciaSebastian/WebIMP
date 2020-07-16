@@ -1,0 +1,10 @@
+<b>Estructura de Control <i>while</i></b>
+<p>Al momento de escribir instrucciones de código que se repiten un número dado de veces se introduce el concepto de búcle. La palabra reservada  <b><i>while</i></b> nos ayudan a realizar la ejecución de instrucciones repetidamente dependiendo de una expresion de control. El programa a continuación imprime un número y va imprimiendo una serie descendente hasta llegar a cero.
+</p>
+
+<!-- Elemento <hr> -->
+<b>Cuerpo de Programa</b>
+<hr>
+<b>while ( <i>expresión</i> ) {instrucciones}</b> : 
+AL principio la expresión es evaluada, en caso de ser Verdadera se ejecuta el código que se encuentra en las instrucciones, en caso de ser falso la ejecución del programa continua con la instruccion despues de las llaves del ciclo while.
+<br><br>

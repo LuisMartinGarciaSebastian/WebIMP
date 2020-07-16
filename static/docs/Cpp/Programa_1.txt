@@ -1,4 +1,4 @@
-<b>Programa 1</b>
+<b>Perímetro de un circulo</b>
 <p>El programa a continuación realiza el cálculo de el perímetro de un círculo, siguiendo
 la estructura básica de un programa para C++.
 </p>
